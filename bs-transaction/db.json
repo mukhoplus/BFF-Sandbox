@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "account_id": 1,
+    "type": "IN",
+    "amount": 2500000,
+    "balance_after": 2500000,
+    "transaction_at": "2024-07-01T09:00:00Z",
+    "description": "급여 입금",
+    "counter_account_no": "111-222-333333",
+    "created_at": "2024-07-01T09:00:00Z",
+    "updated_at": "2024-07-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "account_id": 1,
+    "type": "OUT",
+    "amount": 700000,
+    "balance_after": 1800000,
+    "transaction_at": "2024-07-02T12:00:00Z",
+    "description": "렌트비 이체",
+    "counter_account_no": "987-654-321000",
+    "created_at": "2024-07-02T12:00:00Z",
+    "updated_at": "2024-07-02T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "account_id": 2,
+    "type": "IN",
+    "amount": 500000,
+    "balance_after": 5200000,
+    "transaction_at": "2024-07-03T15:20:00Z",
+    "description": "저축 자동이체",
+    "created_at": "2024-07-03T15:20:00Z",
+    "updated_at": "2024-07-03T15:20:00Z"
+  },
+  {
+    "id": 4,
+    "account_id": 6,
+    "type": "OUT",
+    "amount": 20000,
+    "balance_after": 1480000,
+    "transaction_at": "2024-07-03T08:15:00Z",
+    "description": "카페 결제",
+    "created_at": "2024-07-03T08:15:00Z",
+    "updated_at": "2024-07-03T08:15:00Z"
+  },
+  {
+    "id": 5,
+    "account_id": 14,
+    "type": "IN",
+    "amount": 100000,
+    "balance_after": 2100000,
+    "transaction_at": "2024-07-05T17:00:00Z",
+    "description": "이체입금",
+    "counter_account_no": "987-111-333444",
+    "created_at": "2024-07-05T17:00:00Z",
+    "updated_at": "2024-07-05T17:00:00Z"
+  },
+  {
+    "id": 6,
+    "account_id": 11,
+    "type": "IN",
+    "amount": 3500000,
+    "balance_after": 3200000,
+    "transaction_at": "2024-07-01T11:00:00Z",
+    "description": "회사 월급",
+    "counter_account_no": "COMP-333-999111",
+    "created_at": "2024-07-01T11:00:00Z",
+    "updated_at": "2024-07-01T11:00:00Z"
+  },
+  {
+    "id": 30,
+    "account_id": 15,
+    "type": "IN",
+    "amount": 50000,
+    "balance_after": 1350000,
+    "transaction_at": "2024-07-20T13:00:00Z",
+    "description": "적립이자",
+    "created_at": "2024-07-20T13:00:00Z",
+    "updated_at": "2024-07-20T13:00:00Z"
+  }
+]
