@@ -1,82 +1,189 @@
 [
   {
     "id": 1,
-    "name": "김철수",
-    "birthDate": "1999-05-16",
-    "address": "서울특별시 강남구",
-    "created_at": "2024-01-01T10:00:00Z",
-    "updated_at": "2024-06-01T12:00:00Z"
+    "customer_id": 1,
+    "name": "급여통장",
+    "type": "CHECKING",
+    "balance": 1800000,
+    "account_no": "110-123-456789",
+    "currency": "KRW",
+    "created_at": "2024-01-02T10:00:00Z",
+    "updated_at": "2024-07-10T09:00:00Z"
   },
   {
     "id": 2,
-    "name": "이영희",
-    "birthDate": "2000-11-25",
-    "address": "부산광역시 해운대구",
-    "created_at": "2023-12-15T09:30:00Z",
-    "updated_at": "2024-06-12T10:15:00Z"
+    "customer_id": 1,
+    "name": "저축통장",
+    "type": "SAVINGS",
+    "balance": 5200000,
+    "account_no": "120-456-987654",
+    "currency": "KRW",
+    "created_at": "2024-02-01T10:00:00Z",
+    "updated_at": "2024-07-10T09:00:00Z"
   },
   {
     "id": 3,
-    "name": "박민우",
-    "birthDate": "1997-04-10",
-    "address": "대구광역시 수성구",
-    "created_at": "2024-02-17T08:20:00Z",
-    "updated_at": "2024-05-21T16:05:00Z"
+    "customer_id": 1,
+    "name": "CMA통장",
+    "type": "CMA",
+    "balance": 3500000,
+    "account_no": "130-000-111111",
+    "currency": "KRW",
+    "created_at": "2024-03-01T10:00:00Z",
+    "updated_at": "2024-07-10T09:00:00Z"
   },
   {
     "id": 4,
-    "name": "최지은",
-    "birthDate": "1998-08-09",
-    "address": "인천광역시 남동구",
-    "created_at": "2023-11-08T11:40:00Z",
-    "updated_at": "2024-07-01T08:55:00Z"
+    "customer_id": 1,
+    "name": "비상금통장",
+    "type": "SAVINGS",
+    "balance": 500000,
+    "account_no": "140-222-333333",
+    "currency": "KRW",
+    "created_at": "2024-04-01T10:00:00Z",
+    "updated_at": "2024-07-10T09:00:00Z"
   },
   {
     "id": 5,
-    "name": "정현수",
-    "birthDate": "1996-03-15",
-    "address": "광주광역시 북구",
-    "created_at": "2023-10-03T14:10:00Z",
-    "updated_at": "2024-06-28T07:35:00Z"
+    "customer_id": 2,
+    "name": "주거래통장",
+    "type": "CHECKING",
+    "balance": 3000000,
+    "account_no": "150-555-777777",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   },
   {
     "id": 6,
-    "name": "오지훈",
-    "birthDate": "1995-12-02",
-    "address": "대전광역시 서구",
-    "created_at": "2023-09-01T13:30:00Z",
-    "updated_at": "2024-07-01T07:05:00Z"
+    "customer_id": 2,
+    "name": "비상금",
+    "type": "SAVINGS",
+    "balance": 1500000,
+    "account_no": "151-999-000000",
+    "currency": "KRW",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   },
   {
     "id": 7,
-    "name": "장미애",
-    "birthDate": "1998-07-21",
-    "address": "울산광역시 중구",
-    "created_at": "2024-03-20T09:00:00Z",
-    "updated_at": "2024-06-30T09:14:00Z"
+    "customer_id": 2,
+    "name": "여행자금",
+    "type": "SAVINGS",
+    "balance": 700000,
+    "account_no": "152-111-222333",
+    "currency": "KRW",
+    "created_at": "2024-02-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   },
   {
     "id": 8,
-    "name": "윤한결",
-    "birthDate": "1997-09-09",
-    "address": "세종특별자치시",
-    "created_at": "2023-12-24T08:00:00Z",
-    "updated_at": "2024-07-01T10:00:00Z"
+    "customer_id": 3,
+    "name": "급여통장",
+    "type": "CHECKING",
+    "balance": 4900000,
+    "account_no": "160-090-090909",
+    "currency": "KRW",
+    "created_at": "2024-01-10T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   },
   {
     "id": 9,
-    "name": "백수연",
-    "birthDate": "1999-03-30",
-    "address": "경기도 성남시 분당구",
-    "created_at": "2024-01-14T18:30:00Z",
-    "updated_at": "2024-07-10T11:00:00Z"
+    "customer_id": 3,
+    "name": "적금",
+    "type": "INSTALLMENT",
+    "balance": 800000,
+    "account_no": "161-888-888888",
+    "currency": "KRW",
+    "created_at": "2024-03-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   },
   {
     "id": 10,
-    "name": "한세준",
-    "birthDate": "2001-06-18",
-    "address": "강원도 춘천시",
-    "created_at": "2023-08-01T10:45:00Z",
-    "updated_at": "2024-07-18T09:45:00Z"
+    "customer_id": 4,
+    "name": "자유입출금",
+    "type": "CHECKING",
+    "balance": 1000000,
+    "account_no": "170-222-555666",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 11,
+    "customer_id": 5,
+    "name": "급여통장",
+    "type": "CHECKING",
+    "balance": 3200000,
+    "account_no": "180-333-444555",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "customer_id": 6,
+    "name": "생활비통장",
+    "type": "CHECKING",
+    "balance": 830000,
+    "account_no": "181-444-555666",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 13,
+    "customer_id": 7,
+    "name": "저축통장",
+    "type": "SAVINGS",
+    "balance": 1200000,
+    "account_no": "182-555-666777",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 14,
+    "customer_id": 8,
+    "name": "CMA통장",
+    "type": "CMA",
+    "balance": 2100000,
+    "account_no": "183-666-777888",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 15,
+    "customer_id": 9,
+    "name": "예금통장",
+    "type": "SAVINGS",
+    "balance": 1350000,
+    "account_no": "184-777-888999",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 16,
+    "customer_id": 10,
+    "name": "비상금",
+    "type": "SAVINGS",
+    "balance": 350000,
+    "account_no": "185-888-999000",
+    "currency": "KRW",
+    "created_at": "2024-01-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
+  },
+  {
+    "id": 17,
+    "customer_id": 7,
+    "name": "CMA 세컨드",
+    "type": "CMA",
+    "balance": 800000,
+    "account_no": "186-123-654987",
+    "currency": "KRW",
+    "created_at": "2024-02-01T10:00:00Z",
+    "updated_at": "2024-06-10T09:00:00Z"
   }
 ]

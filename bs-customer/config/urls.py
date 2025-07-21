@@ -20,5 +20,5 @@ from api.views import get_user_by_id
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('account/<int:id>/', get_user_by_id, name='get_user_by_id'),
+    path('customer/<int:id>/', get_user_by_id, name='get_user_by_id'),
 ]
